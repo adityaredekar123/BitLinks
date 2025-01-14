@@ -23,21 +23,10 @@ const Navbar = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
-                </li>
-                <li>
                     <Link href="/shorten">Shorten</Link>
                 </li>
-                <li>
-                    <Link href="/contact">Contact Us</Link>
-                </li>
                 <li className="flex gap-3">
-                    <Link href="/shorten">
-                        <button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold">
-                            Try Now
-                        </button>
-                    </Link>
-                    <Link href="/github">
+                    <Link href="https://github.com/adityaredekar123/BitLinks">
                         <button className="bg-purple-500 rounded-lg shadow-lg px-4 py-2 font-bold">
                             GitHub
                         </button>
